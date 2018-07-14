@@ -1,3 +1,85 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    background-color: #d3d3d3;
+    padding: 10px;
+}
+
+.grid-container div{
+    background-color: #6495ed;
+    font-size: 20px;
+}
+
+.grid1 {
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid2 {
+    grid-template-columns: auto auto auto;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    height: 300px;
+}
+
+.box5 {
+    height: 200px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gaegu', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* codigo original*/
+/*
+
 body {
     margin: 40px;
     background-color: coral;
@@ -8,6 +90,12 @@ body {
     grid-gap: 10px;
     grid-template-columns: 950px auto;
     height: 400px;
+}
+
+#featured {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
 }
 
 .box {
@@ -42,4 +130,4 @@ body {
     grid-gap: 10px;
     grid-template-columns: auto auto auto;
     height: 200px;
-}
+} */
