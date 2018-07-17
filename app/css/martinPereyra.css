@@ -1,4 +1,4 @@
-body {
+#pract1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin: 1em;
@@ -35,4 +35,85 @@ p {
 
 #footer > p {
     padding: 4em;
+}
+
+/* Práctica 2 */
+
+#pract2 {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1em;
+}
+
+#featured {
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+#featured-detail {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+#featured-detail > div {
+    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+}
+
+#featured-thumbnail {
+    grid-row: 1 / 4;
+    display: flex;
+    justify-content: center;
+}
+
+#popup {
+    background-color: lightcyan;
+    border: 1px solid deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    text-align: center;
+}
+
+#square-popup {
+    border: 1px solid deepskyblue;
+    justify-self: stretch;
+    flex-basis: 100%;
+    margin: 1em;
+}
+
+#more-videos {
+    background-color: lavender;
+    border: 1px solid mediumpurple;
+    grid-column: 1 / span 2;
+}
+
+#more-videos-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#more-videos-detail > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#more-videos .video-thumbnail {
+    width: 4em;
+    height: 4em;
+    border: 1px solid mediumpurple;
+}
+
+div, h2 {
+    padding: 1em;
+}
+
+h2 {
+    font-weight: normal;
 }
